@@ -1,0 +1,8 @@
+plt.figure(figsize=(10, 6))
+plt.plot(actual, color='blue', label='Actual AAPL Price')
+plt.plot(predicted, color='red', label='Predicted AAPL Price')
+plt.title('AAPL Stock Price Prediction')
+plt.xlabel('Time')
+plt.ylabel('Stock Price')
+plt.legend()
+plt.show()
